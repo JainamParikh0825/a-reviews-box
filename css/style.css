@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: tomato; */
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  /* height: 80%; */
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.container h1:after {
+  display: block;
+  content: "";
+  width: 10%;
+  height: 4px;
+  background-color: green;
+  margin: 10px auto 70px auto;
+}
+
+.reviews {
+  /* border: 2px solid black; */
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px #bbb;
+  padding: 20px;
+}
+
+.profile-picture {
+  width: 40%;
+  margin: 0 auto 15px auto;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 8px -5px 0 0 #000;
+}
+
+#name {
+  font-size: 1.5em;
+  letter-spacing: 3px;
+}
+
+#position {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+#message {
+  color: #555;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.slider,
+.random-profile {
+  /* background-color: violet; */
+  width: 20%;
+  margin: 20px auto 0 auto;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 2.5em;
+  margin-right: 30px;
+  outline: none;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+#surprise-me-btn {
+  font-size: 1em;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  transition: transform 0.3s;
+}
+
+#surprise-me-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
